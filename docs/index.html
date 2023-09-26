@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            /* Adjusted to fit the entire viewport */
+        }
+
+        header {
+            background: #111111;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        .container {
+            flex-grow: 1;
+            /* Adjusted to take available space */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 1em;
+        }
+
+        button {
+            background-color: #7c7979;
+            color: white;
+            padding: 15px 25px;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #fc5959;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        footer {
+            background-color: #111111;
+            color: white;
+            text-align: left;
+            padding: 0.5em;
+            /* Adjusted padding */
+            width: 100%;
+            font-size: 0.8em;
+            /* Adjusted font size */
+            line-height: 1.4em;
+            /* Adjusted line-height */
+        }
+
+        .footer-div {
+            margin-bottom: 0.5em;
+            /* Adjusted margin */
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <a href="https://zauchnerp.github.io/index.html" target="_self" class="header-link">
+            <h1>Overview</h1>
+        </a>
+    </header>
+
+
+    <div class="container">
+
+        <h2>Internal pages</h2>
+        <button>
+            <a href="https://zauchnerp.github.io/gmoTree/" target="_blank">gmoTree homepage</a>
+        </button>
+
+        <h2>External pages</h2>
+        <small>External pages might use cookies!</small>
+        <button>
+            <a href="https://github.com/ZauchnerP" target="_blank">GitHub profile</a>
+        </button>
+    </div>
+
+    <footer>
+        <div class="footer-div">
+            <strong>
+                <center><a target="_self" href="https://zauchnerp.github.io/impressum.html" target="_blank">Site
+                        Notice</a></center>
+            </strong>
+        </div>
+    </footer>
+</body>
+
+</html>

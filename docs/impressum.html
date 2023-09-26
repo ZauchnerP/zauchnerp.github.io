@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            /* Adjusted to fit the entire viewport */
+        }
+
+        header {
+            background: #111111;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        .container {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 15%;
+            margin-right: 15%;
+            justify-content: center;
+            padding: 1em;
+        }
+
+        /* Media query for viewports less than 600px wide */
+        @media (max-width: 600px) {
+            .container {
+                margin-left: 2%;
+                /* Reduced margin for small screens */
+                margin-right: 2%;
+            }
+        }
+
+        /* Media query for viewports between 600px and 900px wide */
+        @media (min-width: 601px) and (max-width: 900px) {
+            .container {
+                margin-left: 10%;
+                /* Intermediate margin for medium screens */
+                margin-right: 10%;
+            }
+        }
+
+
+        button {
+            background-color: #7c7979;
+            color: white;
+            padding: 15px 25px;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #fc5959;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .impressum {
+            text-align: center;
+        }
+
+        footer {
+            background-color: #111111;
+            color: white;
+            text-align: left;
+            padding: 0.5em;
+            /* Adjusted padding */
+            width: 100%;
+            font-size: 0.8em;
+            /* Adjusted font size */
+            line-height: 1.4em;
+            /* Adjusted line-height */
+        }
+
+        .footer-div {
+            margin-bottom: 0.5em;
+            /* Adjusted margin */
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <a href="https://zauchnerp.github.io/index.html" target="_self" class="header-link">
+            <h1>Overview</h1>
+        </a>
+    </header>
+
+
+    <div class="container">
+
+        <div class="impressum">
+            <h1>Site Notice</h1>
+            <br><br>
+        </div>
+
+        <div class="impressum">
+            <strong>Contact</strong>
+        </div>
+
+        <div class="impressum">
+            Patricia Zauchner<br>
+            Universität Bremen<br>
+            SOCIUM Forschungszentrum Ungleichheit und Sozialpolitik<br>
+            Unicom-Gebäude, Raum: 7.4460<br>
+            Mary-Somerville-Straße 7<br>
+            28359 Bremen, Deutschland
+        </div>
+
+        <div class="impressum">
+            Telephone: +49 421 218-58555<br>
+            E-Mail: patricia.zauchner [at] uni-bremen.de
+        </div>
+        <div class="impressum">
+            <br><br>
+        </div>
+        <div class="impressum">
+            Patricia Zauchner is also responsible for the content in accordance with 55 Abs. 2 RStV.
+        </div>
+
+        <div class="impressum">
+            <br><br>
+        </div>
+
+        <div class="impressum">
+            <strong>Disclaimer:</strong>
+            <br><br>
+            <strong>Accountability for content</strong>
+            <br><br>
+            The contents of my pages have been created with the utmost care. However, I cannot guarantee the contents’
+            accuracy, completeness or topicality. According to statutory provisions, I am furthermore responsible for my
+            own content on these web pages. In this context, please note that I am accordingly not obliged to monitor
+            merely the transmitted or saved information of third parties, or investigate circumstances pointing to
+            illegal activity. My obligations to remove or block the use of information under generally applicable laws
+            remain unaffected by this as per §§ 8 to 10 of the Telemedia Act (TMG).
+            <br><br>
+            <strong>Accountability for links</strong>
+            <br><br>
+            Responsibility for the content of external links (to web pages of third parties) lies solely with the
+            operators of the linked pages. No violations were evident to me at the time of linking. Should any legal
+            infringement become known to us, I will remove the respective link immediately.
+            </p>
+            <br>
+            <strong>Data collection</strong>
+            <br>
+            The website https://zauchnerp.github.io/ collects no data or sets any cookies. External websites (such as my
+            Github profile) may collect data and set cookies.
+            </p>
+
+        </div>
+
+    </div>
+    <footer>
+        <div class="impressum">
+            <strong>
+                <center><a target="_self" href="https://zauchnerp.github.io/impressum.html">Site
+                        Notice</a></center>
+            </strong>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
