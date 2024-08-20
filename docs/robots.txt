@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /index.html
+Disallow: /impressum.html
+
+Allow: /gmoTree/
+Disallow: /gmoTree/impressum.html
