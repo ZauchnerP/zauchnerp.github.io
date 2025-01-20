@@ -14,7 +14,14 @@
             display: flex;
             flex-direction: column;
             min-height: 100vh;
-            /* Adjusted to fit the entire viewport */
+            /* Background*/
+            background:
+                repeating-linear-gradient(45deg,
+                    #ffffff 0, #ffffff 25px,
+                    #000000 25px, #000000 50px),
+                repeating-linear-gradient(-45deg,
+                    #ffffff 0, #ffffff 25px,
+                    #000000 25px, #000000 50px);
         }
 
         header {
@@ -35,7 +42,7 @@
         }
 
         button {
-            background-color: #7c7979;
+            background-color: #4d0690;
             color: white;
             padding: 15px 25px;
             margin: 10px;
@@ -59,34 +66,30 @@
             color: white;
             text-align: left;
             padding: 0.5em;
-            /* Adjusted padding */
             width: 100%;
             font-size: 0.8em;
-            /* Adjusted font size */
             line-height: 1.4em;
-            /* Adjusted line-height */
         }
 
         .footer-div {
             margin-bottom: 0.5em;
-            /* Adjusted margin */
         }
     </style>
 </head>
 
 <body>
-
     <header>
         <a href="https://zauchnerp.github.io/index.html" target="_self" class="header-link">
-            <h1>Overview</h1>
+            <h1>  </h1>
         </a>
     </header>
-
 
     <div class="container">
 
         <button>
-            <a href="https://zauchnerp.github.io/gmoTree/" target="_blank">gmoTree homepage</a>
+            <a href="https://zauchnerp.github.io/gmoTree/" target="_blank">
+                gmoTree homepage
+            </a>
         </button>
 
     </div>
@@ -94,8 +97,11 @@
     <footer>
         <div class="footer-div">
             <strong>
-                <center><a target="_self" href="https://zauchnerp.github.io/impressum.html" target="_blank">Site
-                        Notice</a></center>
+                <center>
+                    <a target="_self" href="https://zauchnerp.github.io/impressum.html" target="_blank">
+                        site notice
+                    </a>
+                </center>
             </strong>
         </div>
     </footer>
